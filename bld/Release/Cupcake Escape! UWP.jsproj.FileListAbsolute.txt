@@ -1,0 +1,16 @@
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bin\Release\ReverseMap\resources.pri
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bin\Release\AppxManifest.xml
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bin\Release\Cupcake Escape! UWP.build.appxrecipe
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\ResourceHandlingTask.state
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\priconfig.xml
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\priconfig.xml.intermediate
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\layout.resfiles
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\layout.resfiles.intermediate
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\resources.resfiles
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\resources.resfiles.intermediate
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\pri.resfiles
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\pri.resfiles.intermediate
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\qualifiers.txt
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\qualifiers.txt.intermediate
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\ProjectArchitectures.txt

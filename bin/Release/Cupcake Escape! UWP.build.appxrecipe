@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ADVAITHS-SURFAC</Machine>
+    <WindowsUser>advaith</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>34BB9243-C33E-8298-49EA-BCEF10733688</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Unknown</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bld\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bin\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\resources\mouse-cursor-right-down.png">
+      <PackagePath>resources\mouse-cursor-right-down.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\resources\mouse-cursor-left-down.png">
+      <PackagePath>resources\mouse-cursor-left-down.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\resources\mouse-cursor-idle.png">
+      <PackagePath>resources\mouse-cursor-idle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\resources\M0003.png">
+      <PackagePath>resources\M0003.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\resources\M0002.png">
+      <PackagePath>resources\M0002.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\resources\M0001.png">
+      <PackagePath>resources\M0001.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\CRuntime.js">
+      <PackagePath>js\runtime\CRuntime.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\libs\jszip.js">
+      <PackagePath>js\runtime\libs\jszip.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\libs\jszip-inflate.js">
+      <PackagePath>js\runtime\libs\jszip-inflate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\libs\jszip-load.js">
+      <PackagePath>js\runtime\libs\jszip-load.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\libs\Matrix.js">
+      <PackagePath>js\runtime\libs\Matrix.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\libs\Matrix2D.js">
+      <PackagePath>js\runtime\libs\Matrix2D.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\libs\Box2D.js">
+      <PackagePath>js\runtime\libs\Box2D.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\objects\CBoundingCache.js">
+      <PackagePath>js\runtime\objects\CBoundingCache.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CServices.js">
+      <PackagePath>js\runtime\services\CServices.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CArrayList.js">
+      <PackagePath>js\runtime\services\CArrayList.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CBrowserDetect.js">
+      <PackagePath>js\runtime\services\CBrowserDetect.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CDisplayText.js">
+      <PackagePath>js\runtime\services\CDisplayText.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CFile.js">
+      <PackagePath>js\runtime\services\CFile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CFontInfo.js">
+      <PackagePath>js\runtime\services\CFontInfo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CIni.js">
+      <PackagePath>js\runtime\services\CIni.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CObjectSelection.js">
+      <PackagePath>js\runtime\services\CObjectSelection.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CPoint.js">
+      <PackagePath>js\runtime\services\CPoint.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CRect.js">
+      <PackagePath>js\runtime\services\CRect.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CReplaceColor.js">
+      <PackagePath>js\runtime\services\CReplaceColor.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CTokeniser.js">
+      <PackagePath>js\runtime\services\CTokeniser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CZone.js">
+      <PackagePath>js\runtime\services\CZone.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\services\CGraphicFont.js">
+      <PackagePath>js\runtime\services\CGraphicFont.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\CRenderer.js">
+      <PackagePath>js\runtime\renderers\CRenderer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\CRendererImageBuffer.js">
+      <PackagePath>js\runtime\renderers\CRendererImageBuffer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\CRendererTextContainer.js">
+      <PackagePath>js\runtime\renderers\CRendererTextContainer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\CRendererImageContainer.js">
+      <PackagePath>js\runtime\renderers\CRendererImageContainer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\canvas\CCanvasRenderer.js">
+      <PackagePath>js\runtime\renderers\canvas\CCanvasRenderer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\canvas\CCanvasRendererImageBuffer.js">
+      <PackagePath>js\runtime\renderers\canvas\CCanvasRendererImageBuffer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\canvas\CCanvasRendererTextContainer.js">
+      <PackagePath>js\runtime\renderers\canvas\CCanvasRendererTextContainer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\canvas\CCanvasRendererImageContainer.js">
+      <PackagePath>js\runtime\renderers\canvas\CCanvasRendererImageContainer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\CWebGLRenderer.js">
+      <PackagePath>js\runtime\renderers\webgl\CWebGLRenderer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\CWebGLRendererTexture.js">
+      <PackagePath>js\runtime\renderers\webgl\CWebGLRendererTexture.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\CWebGLRendererShader.js">
+      <PackagePath>js\runtime\renderers\webgl\CWebGLRendererShader.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\CWebGLRendererImageBuffer.js">
+      <PackagePath>js\runtime\renderers\webgl\CWebGLRendererImageBuffer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\CWebGLRendererTextContainer.js">
+      <PackagePath>js\runtime\renderers\webgl\CWebGLRendererTextContainer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\CWebGLRendererImageContainer.js">
+      <PackagePath>js\runtime\renderers\webgl\CWebGLRendererImageContainer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\application\CRunApp.js">
+      <PackagePath>js\runtime\application\CRunApp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\application\CRunFrame.js">
+      <PackagePath>js\runtime\application\CRunFrame.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\application\CSoundPlayer.js">
+      <PackagePath>js\runtime\application\CSoundPlayer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\application\CGamepad.js">
+      <PackagePath>js\runtime\application\CGamepad.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\application\CVirtualMouse.js">
+      <PackagePath>js\runtime\application\CVirtualMouse.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\application\CVirtualJoystick.js">
+      <PackagePath>js\runtime\application\CVirtualJoystick.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\application\CVirtualJoystickTouch.js">
+      <PackagePath>js\runtime\application\CVirtualJoystickTouch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\application\CVirtualJoystickAccelerometer.js">
+      <PackagePath>js\runtime\application\CVirtualJoystickAccelerometer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\application\CEmbeddedFile.js">
+      <PackagePath>js\runtime\application\CEmbeddedFile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\application\CFakeTouchEvent.js">
+      <PackagePath>js\runtime\application\CFakeTouchEvent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\application\CFakePointerEvent.js">
+      <PackagePath>js\runtime\application\CFakePointerEvent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\events\CEventProgram.js">
+      <PackagePath>js\runtime\events\CEventProgram.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\events\CEventGroup.js">
+      <PackagePath>js\runtime\events\CEventGroup.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\events\CEvent.js">
+      <PackagePath>js\runtime\events\CEvent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\events\CPushedEvent.js">
+      <PackagePath>js\runtime\events\CPushedEvent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\events\CGroupFind.js">
+      <PackagePath>js\runtime\events\CGroupFind.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\events\CLoadQualifiers.js">
+      <PackagePath>js\runtime\events\CLoadQualifiers.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\events\CPosOnLoop.js">
+      <PackagePath>js\runtime\events\CPosOnLoop.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\events\CQualToOiList.js">
+      <PackagePath>js\runtime\events\CQualToOiList.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\events\CForEach.js">
+      <PackagePath>js\runtime\events\CForEach.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\events\CTimerEvents.js">
+      <PackagePath>js\runtime\events\CTimerEvents.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\animations\CAnim.js">
+      <PackagePath>js\runtime\animations\CAnim.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\animations\CAnimDir.js">
+      <PackagePath>js\runtime\animations\CAnimDir.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\animations\CAnimHeader.js">
+      <PackagePath>js\runtime\animations\CAnimHeader.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\animations\CRAni.js">
+      <PackagePath>js\runtime\animations\CRAni.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\CParam.js">
+      <PackagePath>js\runtime\params\CParam.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\CPosition.js">
+      <PackagePath>js\runtime\params\CPosition.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\CPositionInfo.js">
+      <PackagePath>js\runtime\params\CPositionInfo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_2SHORTS.js">
+      <PackagePath>js\runtime\params\PARAM_2SHORTS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_CMPTIME.js">
+      <PackagePath>js\runtime\params\PARAM_CMPTIME.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_COLOUR.js">
+      <PackagePath>js\runtime\params\PARAM_COLOUR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_CREATE.js">
+      <PackagePath>js\runtime\params\PARAM_CREATE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_EVERY.js">
+      <PackagePath>js\runtime\params\PARAM_EVERY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_EXPRESSION.js">
+      <PackagePath>js\runtime\params\PARAM_EXPRESSION.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_EXTENSION.js">
+      <PackagePath>js\runtime\params\PARAM_EXTENSION.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_GROUP.js">
+      <PackagePath>js\runtime\params\PARAM_GROUP.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_GROUPPOINTER.js">
+      <PackagePath>js\runtime\params\PARAM_GROUPPOINTER.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_INT.js">
+      <PackagePath>js\runtime\params\PARAM_INT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_KEY.js">
+      <PackagePath>js\runtime\params\PARAM_KEY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_OBJECT.js">
+      <PackagePath>js\runtime\params\PARAM_OBJECT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_POSITION.js">
+      <PackagePath>js\runtime\params\PARAM_POSITION.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_SAMPLE.js">
+      <PackagePath>js\runtime\params\PARAM_SAMPLE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_SHOOT.js">
+      <PackagePath>js\runtime\params\PARAM_SHOOT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_SHORT.js">
+      <PackagePath>js\runtime\params\PARAM_SHORT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_STRING.js">
+      <PackagePath>js\runtime\params\PARAM_STRING.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_TIME.js">
+      <PackagePath>js\runtime\params\PARAM_TIME.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\params\PARAM_ZONE.js">
+      <PackagePath>js\runtime\params\PARAM_ZONE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\CMove.js">
+      <PackagePath>js\runtime\movements\CMove.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\CMoveDef.js">
+      <PackagePath>js\runtime\movements\CMoveDef.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\CMoveDefList.js">
+      <PackagePath>js\runtime\movements\CMoveDefList.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\CMoveDefExtension.js">
+      <PackagePath>js\runtime\movements\CMoveDefExtension.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\CMoveExtension.js">
+      <PackagePath>js\runtime\movements\CMoveExtension.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\CRunMvtExtension.js">
+      <PackagePath>js\runtime\movements\CRunMvtExtension.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\CRMvt.js">
+      <PackagePath>js\runtime\movements\CRMvt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\runloop\CRun.js">
+      <PackagePath>js\runtime\runloop\CRun.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\runloop\CCreateObjectInfo.js">
+      <PackagePath>js\runtime\runloop\CCreateObjectInfo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\runloop\CObjInfo.js">
+      <PackagePath>js\runtime\runloop\CObjInfo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\runloop\CRunMBase.js">
+      <PackagePath>js\runtime\runloop\CRunMBase.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\runloop\CSaveGlobal.js">
+      <PackagePath>js\runtime\runloop\CSaveGlobal.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\runloop\CSaveGlobalCounter.js">
+      <PackagePath>js\runtime\runloop\CSaveGlobalCounter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\runloop\CSaveGlobalText.js">
+      <PackagePath>js\runtime\runloop\CSaveGlobalText.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\runloop\CSaveGlobalValues.js">
+      <PackagePath>js\runtime\runloop\CSaveGlobalValues.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\extensions\CExtLoader.js">
+      <PackagePath>js\runtime\extensions\CExtLoader.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\extensions\CExtLoad.js">
+      <PackagePath>js\runtime\extensions\CExtLoad.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\extensions\CRunExtension.js">
+      <PackagePath>js\runtime\extensions\CRunExtension.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\extensions\CActExtension.js">
+      <PackagePath>js\runtime\extensions\CActExtension.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\extensions\CCndExtension.js">
+      <PackagePath>js\runtime\extensions\CCndExtension.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\extensions\CExpExtension.js">
+      <PackagePath>js\runtime\extensions\CExpExtension.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\extensions\CRunControl.js">
+      <PackagePath>js\runtime\extensions\CRunControl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\objects\CSceneNode.js">
+      <PackagePath>js\runtime\objects\CSceneNode.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\objects\CObject.js">
+      <PackagePath>js\runtime\objects\CObject.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\objects\CActive.js">
+      <PackagePath>js\runtime\objects\CActive.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\objects\CCCA.js">
+      <PackagePath>js\runtime\objects\CCCA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\objects\CCounter.js">
+      <PackagePath>js\runtime\objects\CCounter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\objects\CExtension.js">
+      <PackagePath>js\runtime\objects\CExtension.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\objects\CLives.js">
+      <PackagePath>js\runtime\objects\CLives.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\objects\CQuestion.js">
+      <PackagePath>js\runtime\objects\CQuestion.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\objects\CRCom.js">
+      <PackagePath>js\runtime\objects\CRCom.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\objects\CScore.js">
+      <PackagePath>js\runtime\objects\CScore.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\objects\CText.js">
+      <PackagePath>js\runtime\objects\CText.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\sprites\CRSpr.js">
+      <PackagePath>js\runtime\sprites\CRSpr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\sprites\CMask.js">
+      <PackagePath>js\runtime\sprites\CMask.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\sprites\CColMask.js">
+      <PackagePath>js\runtime\sprites\CColMask.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\sprites\CRotatedMask.js">
+      <PackagePath>js\runtime\sprites\CRotatedMask.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\frame\CLO.js">
+      <PackagePath>js\runtime\frame\CLO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\frame\CLOList.js">
+      <PackagePath>js\runtime\frame\CLOList.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\frame\CBackInstance.js">
+      <PackagePath>js\runtime\frame\CBackInstance.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\frame\CLayerPlane.js">
+      <PackagePath>js\runtime\frame\CLayerPlane.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\frame\CLayer.js">
+      <PackagePath>js\runtime\frame\CLayer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\oi\COI.js">
+      <PackagePath>js\runtime\oi\COI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\oi\COIList.js">
+      <PackagePath>js\runtime\oi\COIList.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\oi\COC.js">
+      <PackagePath>js\runtime\oi\COC.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\oi\COCBackground.js">
+      <PackagePath>js\runtime\oi\COCBackground.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\oi\COCQBackdrop.js">
+      <PackagePath>js\runtime\oi\COCQBackdrop.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\oi\CObjectCommon.js">
+      <PackagePath>js\runtime\oi\CObjectCommon.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\oi\CDefCCA.js">
+      <PackagePath>js\runtime\oi\CDefCCA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\oi\CDefCounter.js">
+      <PackagePath>js\runtime\oi\CDefCounter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\oi\CDefCounters.js">
+      <PackagePath>js\runtime\oi\CDefCounters.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\oi\CDefRtf.js">
+      <PackagePath>js\runtime\oi\CDefRtf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\oi\CDefText.js">
+      <PackagePath>js\runtime\oi\CDefText.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\oi\CDefTexts.js">
+      <PackagePath>js\runtime\oi\CDefTexts.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\banks\CImageBank.js">
+      <PackagePath>js\runtime\banks\CImageBank.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\banks\CImage.js">
+      <PackagePath>js\runtime\banks\CImage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\banks\CSoundBank.js">
+      <PackagePath>js\runtime\banks\CSoundBank.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\banks\CSound.js">
+      <PackagePath>js\runtime\banks\CSound.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\banks\CFontBank.js">
+      <PackagePath>js\runtime\banks\CFontBank.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\banks\CFont.js">
+      <PackagePath>js\runtime\banks\CFont.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\banks\CMosaic.js">
+      <PackagePath>js\runtime\banks\CMosaic.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\values\CDefStrings.js">
+      <PackagePath>js\runtime\values\CDefStrings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\values\CDefValues.js">
+      <PackagePath>js\runtime\values\CDefValues.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\values\CRVal.js">
+      <PackagePath>js\runtime\values\CRVal.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransitionData.js">
+      <PackagePath>js\runtime\transitions\CTransitionData.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransition.js">
+      <PackagePath>js\runtime\transitions\CTransition.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTrans.js">
+      <PackagePath>js\runtime\transitions\CTrans.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransitionManager.js">
+      <PackagePath>js\runtime\transitions\CTransitionManager.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\box2d\CContactListener.js">
+      <PackagePath>js\runtime\box2d\CContactListener.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\box2d\CJoint.js">
+      <PackagePath>js\runtime\box2d\CJoint.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\preloaders\CPreloaderProgress.js">
+      <PackagePath>js\runtime\preloaders\CPreloaderProgress.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\preloaders\CPreloaderBlank.js">
+      <PackagePath>js\runtime\preloaders\CPreloaderBlank.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\preloaders\CPreloaderImage.js">
+      <PackagePath>js\runtime\preloaders\CPreloaderImage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\preloaders\CPreloaderFrame.js">
+      <PackagePath>js\runtime\preloaders\CPreloaderFrame.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\preloaders\CPreloaderLastFrameBuffer.js">
+      <PackagePath>js\runtime\preloaders\CPreloaderLastFrameBuffer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\dialogs\CDialog.js">
+      <PackagePath>js\runtime\dialogs\CDialog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\dialogs\CMessageDialog.js">
+      <PackagePath>js\runtime\dialogs\CMessageDialog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\dialogs\CInputDialog.js">
+      <PackagePath>js\runtime\dialogs\CInputDialog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\targets\w10\CW10Runtime.js">
+      <PackagePath>js\runtime\targets\w10\CW10Runtime.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\targets\w10\CW10Application.js">
+      <PackagePath>js\runtime\targets\w10\CW10Application.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\targets\w10\CW10Gamepad.js">
+      <PackagePath>js\runtime\targets\w10\CW10Gamepad.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\targets\w10\CW10MessageDialog.js">
+      <PackagePath>js\runtime\targets\w10\CW10MessageDialog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\targets\w10\CW10InputDialog.js">
+      <PackagePath>js\runtime\targets\w10\CW10InputDialog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\conditions\CCnd.js">
+      <PackagePath>js\runtime\conditions\CCnd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\actions\CAct.js">
+      <PackagePath>js\runtime\actions\CAct.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\actions\CLoop.js">
+      <PackagePath>js\runtime\actions\CLoop.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\expressions\CExp.js">
+      <PackagePath>js\runtime\expressions\CExp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\source\MoveBall.js">
+      <PackagePath>js\runtime\movements\source\MoveBall.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\source\MoveBullet.js">
+      <PackagePath>js\runtime\movements\source\MoveBullet.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\source\MoveDisappear.js">
+      <PackagePath>js\runtime\movements\source\MoveDisappear.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\source\MoveGeneric.js">
+      <PackagePath>js\runtime\movements\source\MoveGeneric.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\source\MoveMouse.js">
+      <PackagePath>js\runtime\movements\source\MoveMouse.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\source\MovePath.js">
+      <PackagePath>js\runtime\movements\source\MovePath.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\source\MovePlatform.js">
+      <PackagePath>js\runtime\movements\source\MovePlatform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\source\MoveRace.js">
+      <PackagePath>js\runtime\movements\source\MoveRace.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\movements\source\MoveStatic.js">
+      <PackagePath>js\runtime\movements\source\MoveStatic.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransitionCCTrans.js">
+      <PackagePath>js\runtime\transitions\CTransitionCCTrans.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransAdvancedScrolling.js">
+      <PackagePath>js\runtime\transitions\CTransAdvancedScrolling.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransBack.js">
+      <PackagePath>js\runtime\transitions\CTransBack.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransBand.js">
+      <PackagePath>js\runtime\transitions\CTransBand.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransCell.js">
+      <PackagePath>js\runtime\transitions\CTransCell.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransDoor.js">
+      <PackagePath>js\runtime\transitions\CTransDoor.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransFade.js">
+      <PackagePath>js\runtime\transitions\CTransFade.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransLine.js">
+      <PackagePath>js\runtime\transitions\CTransLine.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransMosaic.js">
+      <PackagePath>js\runtime\transitions\CTransMosaic.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransOpen.js">
+      <PackagePath>js\runtime\transitions\CTransOpen.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransPush.js">
+      <PackagePath>js\runtime\transitions\CTransPush.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransScroll.js">
+      <PackagePath>js\runtime\transitions\CTransScroll.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransSquare.js">
+      <PackagePath>js\runtime\transitions\CTransSquare.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransStretch.js">
+      <PackagePath>js\runtime\transitions\CTransStretch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransStretch2.js">
+      <PackagePath>js\runtime\transitions\CTransStretch2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransTrame.js">
+      <PackagePath>js\runtime\transitions\CTransTrame.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransTurn.js">
+      <PackagePath>js\runtime\transitions\CTransTurn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransTurn2.js">
+      <PackagePath>js\runtime\transitions\CTransTurn2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransZigZag.js">
+      <PackagePath>js\runtime\transitions\CTransZigZag.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransZigZag2.js">
+      <PackagePath>js\runtime\transitions\CTransZigZag2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransZoom.js">
+      <PackagePath>js\runtime\transitions\CTransZoom.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\transitions\CTransZoom2.js">
+      <PackagePath>js\runtime\transitions\CTransZoom2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\actions\ACT_SKIP.js">
+      <PackagePath>js\runtime\actions\ACT_SKIP.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\actions\ACT_GOLEVEL.js">
+      <PackagePath>js\runtime\actions\ACT_GOLEVEL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\actions\ACT_RESTARTGAME.js">
+      <PackagePath>js\runtime\actions\ACT_RESTARTGAME.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\actions\ACT_ADDSCORE.js">
+      <PackagePath>js\runtime\actions\ACT_ADDSCORE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\actions\ACT_SUBLIVES.js">
+      <PackagePath>js\runtime\actions\ACT_SUBLIVES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\actions\ACT_EXTBOUNCE.js">
+      <PackagePath>js\runtime\actions\ACT_EXTBOUNCE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\conditions\CND_NEVER.js">
+      <PackagePath>js\runtime\conditions\CND_NEVER.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\conditions\CND_START.js">
+      <PackagePath>js\runtime\conditions\CND_START.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\conditions\CND_MCLICKONOBJECT.js">
+      <PackagePath>js\runtime\conditions\CND_MCLICKONOBJECT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\conditions\CND_MCLICKINZONE.js">
+      <PackagePath>js\runtime\conditions\CND_MCLICKINZONE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\conditions\CND_MCLICK.js">
+      <PackagePath>js\runtime\conditions\CND_MCLICK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\conditions\CND_KBPRESSKEY.js">
+      <PackagePath>js\runtime\conditions\CND_KBPRESSKEY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\conditions\CND_NOMORELIVE.js">
+      <PackagePath>js\runtime\conditions\CND_NOMORELIVE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\conditions\CND_EXTCOLLISION.js">
+      <PackagePath>js\runtime\conditions\CND_EXTCOLLISION.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\expressions\EXP_ZERO.js">
+      <PackagePath>js\runtime\expressions\EXP_ZERO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\expressions\EXP_EMPTY.js">
+      <PackagePath>js\runtime\expressions\EXP_EMPTY.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\expressions\EXP_LONG.js">
+      <PackagePath>js\runtime\expressions\EXP_LONG.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\expressions\EXP_DOUBLE.js">
+      <PackagePath>js\runtime\expressions\EXP_DOUBLE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\expressions\EXP_EXTVAR.js">
+      <PackagePath>js\runtime\expressions\EXP_EXTVAR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\expressions\EXP_EXTVARSTRING.js">
+      <PackagePath>js\runtime\expressions\EXP_EXTVARSTRING.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\expressions\EXP_STRINGGLONAMED.js">
+      <PackagePath>js\runtime\expressions\EXP_STRINGGLONAMED.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\expressions\EXP_VARGLONAMED.js">
+      <PackagePath>js\runtime\expressions\EXP_VARGLONAMED.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\expressions\EXP_STRING.js">
+      <PackagePath>js\runtime\expressions\EXP_STRING.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\expressions\EXP_EXTVARBYINDEX.js">
+      <PackagePath>js\runtime\expressions\EXP_EXTVARBYINDEX.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\expressions\EXP_EXTVARSTRINGBYINDEX.js">
+      <PackagePath>js\runtime\expressions\EXP_EXTVARSTRINGBYINDEX.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\extensions\source\kchisc.js">
+      <PackagePath>js\runtime\extensions\source\kchisc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\extensions\source\HTML5.js">
+      <PackagePath>js\runtime\extensions\source\HTML5.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\extensions\source\MobileFont.js">
+      <PackagePath>js\runtime\extensions\source\MobileFont.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\Extensions.js">
+      <PackagePath>js\Extensions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\Movements.js">
+      <PackagePath>js\Movements.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\WinJS\js\base.js">
+      <PackagePath>WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\WinJS\js\ui.js">
+      <PackagePath>WinJS\js\ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderBasic.frag">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderBasic.frag</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderFilled.frag">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderFilled.frag</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderGradient.frag">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderGradient.frag</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderGradientEllipse.frag">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderGradientEllipse.frag</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderPattern.frag">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderPattern.frag</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderTextured.frag">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderTextured.frag</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderTexturedEllipse.frag">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderTexturedEllipse.frag</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderBasic.vert">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderBasic.vert</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderFilled.vert">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderFilled.vert</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderGradient.vert">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderGradient.vert</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderGradientEllipse.vert">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderGradientEllipse.vert</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderPattern.vert">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderPattern.vert</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderTextured.vert">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderTextured.vert</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\js\runtime\renderers\webgl\shaders\shaderTexturedEllipse.vert">
+      <PackagePath>js\runtime\renderers\webgl\shaders\shaderTexturedEllipse.vert</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\resources\Cupcake Escape! UWP.cc1">
+      <PackagePath>resources\Cupcake Escape! UWP.cc1</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\resources\Cupcake Escape! UWP.cch">
+      <PackagePath>resources\Cupcake Escape! UWP.cch</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\advaith\Documents\Clickteam Fusion\Cupcake Escape! UWP\bin\Release\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
